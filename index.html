@@ -11,7 +11,8 @@
     .hero-real-visual{position:relative;margin:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
     .hero-real-glow{position:absolute;width:380px;height:460px;border-radius:50%;background:radial-gradient(circle,rgba(54,104,132,.24) 0%,rgba(18,42,54,.12) 45%,transparent 72%);filter:blur(18px);pointer-events:none}
     .hero-real-phone{position:relative;z-index:1;width:min(100%,340px);padding:8px;border-radius:34px;background:linear-gradient(145deg,#303535,#111414 35%,#030404 100%);box-shadow:0 32px 85px rgba(0,0,0,.62),0 0 0 1px rgba(255,255,255,.07)}
-    .hero-real-phone img{display:block;width:100%;height:auto;border-radius:27px;image-rendering:auto}
+    .hero-slices{overflow:hidden;border-radius:27px;line-height:0;font-size:0;background:#061018}
+    .hero-slices img{display:block;width:100%;height:auto;margin:0;padding:0;border:0}
     .hero-real-visual figcaption{position:relative;z-index:1;margin-top:14px;color:#8f9996;font-size:.82rem;letter-spacing:.03em}
     @media(max-width:820px){.hero-real-phone{width:min(82vw,340px)}.hero-real-glow{width:320px;height:390px}}
   </style>
@@ -43,7 +44,20 @@
       <figure class="hero-real-visual">
         <div class="hero-real-glow" aria-hidden="true"></div>
         <div class="hero-real-phone">
-          <img src="assets/waymark-home.webp?v=5" width="420" height="936" alt="Actual Waymark Launcher home screen showing time, weather, calendar event and app list" decoding="async" fetchpriority="high">
+          <div class="hero-slices" role="img" aria-label="Actual Waymark Launcher home screen showing time, weather, calendar event and app list">
+            <img src="assets/hero/slice00.webp?v=6" alt="" decoding="async" fetchpriority="high">
+            <img src="assets/hero/slice01.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice02.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice03.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice04.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice05.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice06.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice07.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice08.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice09.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice10.webp?v=6" alt="" decoding="async">
+            <img src="assets/hero/slice11.webp?v=6" alt="" decoding="async">
+          </div>
         </div>
         <figcaption>Actual Waymark home screen</figcaption>
       </figure>
