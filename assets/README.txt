@@ -1,0 +1,1 @@
+Waymark website image assets.
