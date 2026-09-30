@@ -22,7 +22,7 @@
 
   <main>
     <section class="hero">
-      <div class="hero-copy">
+      <div>
         <div class="eyebrow">Android launcher</div>
         <h1>A cleaner way home.</h1>
         <p class="lead">Waymark Launcher keeps your essential apps and information close without turning your home screen into a wall of icons.</p>
@@ -32,13 +32,22 @@
         </div>
       </div>
 
-      <figure class="hero-visual">
-        <div class="hero-glow" aria-hidden="true"></div>
-        <div class="phone-frame">
-          <img src="assets/waymark-home.webp" alt="Actual Waymark Launcher home screen showing time, weather, calendar event and app list">
+      <div class="hero-device hero-preview" aria-label="Waymark home screen preview">
+        <div class="preview-glow"></div>
+        <div class="preview-moon"></div>
+        <div class="preview-path"></div>
+        <div class="preview-content">
+          <div class="hero-time">3:46</div>
+          <div class="hero-meta">Wed, 30 Sept · 18° · 75%</div>
+          <div class="hero-event">Thu 3:00 pm · Doctor's Appointment</div>
+          <div class="hero-apps">
+            <span class="app-item phone">Phone</span>
+            <span class="app-item messages">Messages</span>
+            <span class="app-item brave">Brave</span>
+            <span class="app-item camera">Camera</span>
+          </div>
         </div>
-        <figcaption>Actual Waymark home screen</figcaption>
-      </figure>
+      </div>
     </section>
 
     <section class="grid" aria-label="Waymark features">
