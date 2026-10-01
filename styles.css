@@ -359,3 +359,116 @@ footer{
   .donate-link{font-size:.93rem}
   .themes-showcase{margin-top:32px}
 }
+
+
+/* Expanded FAQ guide */
+.faq-jump-nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px;
+  margin:30px 0 48px;
+  padding:16px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:linear-gradient(180deg,#101313,#0b0d0d);
+}
+.faq-jump-nav a{
+  display:inline-flex;
+  align-items:center;
+  min-height:38px;
+  padding:8px 12px;
+  border:1px solid #303636;
+  border-radius:11px;
+  background:#171a1a;
+  color:#d7dddb;
+  text-decoration:none;
+  font-size:.9rem;
+  font-weight:700;
+  line-height:1.2;
+  transition:background .15s ease,border-color .15s ease,transform .15s ease;
+}
+.faq-jump-nav a:hover{
+  background:#202424;
+  border-color:#454c4a;
+  transform:translateY(-1px);
+}
+.faq-jump-nav a:focus-visible{
+  outline:2px solid #fff;
+  outline-offset:2px;
+}
+.faq-section{
+  margin:52px 0 0;
+  scroll-margin-top:92px;
+}
+.faq-section-heading{
+  max-width:760px;
+  margin-bottom:18px;
+}
+.faq-section-heading h2{
+  margin:6px 0 8px;
+  font-size:clamp(1.75rem,4vw,2.35rem);
+  line-height:1.08;
+  letter-spacing:-.035em;
+}
+.faq-section-heading p{
+  margin:0;
+  color:#b8c0be;
+}
+.faq-section .faq-list{
+  margin:18px 0 0;
+}
+.faq-answer p{
+  color:#c0c7c5;
+}
+.faq-answer p + p{
+  margin-top:12px;
+}
+.faq-path{
+  padding:10px 12px;
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;
+  background:#090b0b;
+  color:#aeb7b4 !important;
+  font-size:.92rem;
+  line-height:1.45;
+}
+.faq-path strong{
+  color:#eef2f1;
+}
+.faq-help{
+  margin-top:52px;
+}
+
+@media(max-width:760px){
+  .faq-jump-nav{
+    margin-bottom:38px;
+    padding:13px;
+    gap:7px;
+  }
+  .faq-jump-nav a{
+    font-size:.86rem;
+    padding:8px 10px;
+  }
+  .faq-section{
+    margin-top:44px;
+  }
+}
+@media(max-width:520px){
+  .faq-jump-nav{
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    scrollbar-width:thin;
+    padding-bottom:12px;
+  }
+  .faq-jump-nav a{
+    flex:0 0 auto;
+    white-space:nowrap;
+  }
+  .faq-item summary{
+    padding-left:18px;
+  }
+  .faq-answer{
+    padding-left:18px;
+    padding-right:18px;
+  }
+}
