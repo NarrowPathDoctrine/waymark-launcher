@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Frequently asked questions and help for Waymark Launcher.">
+  <meta name="description" content="Frequently asked questions and step-by-step help for Waymark Launcher.">
   <meta name="theme-color" content="#000000">
   <title>FAQ | Waymark Launcher</title>
   <link rel="stylesheet" href="styles.css">
@@ -24,64 +24,636 @@
   <main>
     <div class="eyebrow">Waymark Launcher</div>
     <h1 class="page-title">Frequently Asked Questions</h1>
-    <p class="lead">Quick answers to common questions about setting up and using Waymark.</p>
+    <p class="lead">Direct answers and step-by-step paths for setting up, customizing and troubleshooting Waymark.</p>
 
-    <section class="faq-list" aria-label="Frequently asked questions">
-      <details class="faq-item">
-        <summary>How do I make Waymark my default Home app?</summary>
-        <div class="faq-answer">
-          <p>Open Waymark Settings and choose <strong>Change default launcher</strong> under Launcher &amp; system. Android will open the Home app chooser so you can select Waymark Launcher.</p>
-        </div>
-      </details>
+    <nav class="faq-jump-nav" aria-label="FAQ sections">
+      <a href="#getting-started">Getting Started &amp; Home</a>
+      <a href="#settings">Settings</a>
+      <a href="#themes">Themes</a>
+      <a href="#waymark-hub">Waymark Hub</a>
+      <a href="#waymark-now">Waymark Now</a>
+      <a href="#drawer-navigation">Drawer &amp; Navigation</a>
+      <a href="#backup-troubleshooting">Backup &amp; Troubleshooting</a>
+    </nav>
 
-      <details class="faq-item">
-        <summary>Why are weather or calendar information not showing?</summary>
-        <div class="faq-answer">
-          <p>Those features need the related Android permission before Waymark can show their information. Once calendar or weather/location access is granted from Waymark, the related feature is enabled automatically. If access was previously denied, you can review Waymark's permissions from Android App info and then enable the feature again.</p>
-        </div>
-      </details>
+    <section class="faq-section" id="getting-started">
+      <div class="faq-section-heading">
+        <div class="eyebrow">Start here</div>
+        <h2>Getting Started &amp; Home</h2>
+        <p>Set Waymark as your launcher, choose what appears on Home, and adjust the basic Home layout.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How do I make Waymark my default Home app?</summary>
+          <div class="faq-answer">
+            <p>Open Waymark's menu, go to Settings, and choose <strong>Change default launcher</strong>. Android will open its Home app chooser so you can select Waymark Launcher.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Launcher &amp; system → Change default launcher</p>
+          </div>
+        </details>
 
-      <details class="faq-item">
-        <summary>What is the difference between Waymark Themes and My Themes?</summary>
-        <div class="faq-answer">
-          <p>Waymark Themes are ready-made presets included with the launcher. My Themes contains themes you create or customized versions you save yourself. Your saved themes remain independent from the original built-in presets.</p>
-        </div>
-      </details>
+        <details class="faq-item">
+          <summary>How do I choose which apps appear on my Home screen?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Home apps</strong> and choose the apps or folders you want on Home. Waymark supports up to <strong>8 Home items</strong>; a folder counts as one item regardless of how many apps it contains.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home apps</p>
+          </div>
+        </details>
 
-      <details class="faq-item">
-        <summary>Will applying a theme change my Lock Screen wallpaper?</summary>
-        <div class="faq-answer">
-          <p>Not unless you choose that behavior. Built-in Waymark themes use the <strong>Built-in theme Lock Screen</strong> option in Settings. Themes saved under My Themes remember their own <strong>Also use on Lock Screen</strong> choice from Theme Studio.</p>
-        </div>
-      </details>
+        <details class="faq-item">
+          <summary>Is there a quick way to change my Home apps?</summary>
+          <div class="faq-answer">
+            <p>Yes. Long-press an empty area of the Home wallpaper and choose <strong>Home apps</strong>. This opens the same Home-app editor without going through the Waymark menu.</p>
+          </div>
+        </details>
 
-      <details class="faq-item">
-        <summary>How do I back up and restore Waymark?</summary>
-        <div class="faq-answer">
-          <p>Use Waymark's Backup &amp; Restore option in Settings. A Waymark backup can restore the launcher setup covered by the backup system, including themes, Home items, folders, hidden apps, Waymark Now settings and preferences.</p>
-        </div>
-      </details>
+        <details class="faq-item">
+          <summary>How do I rearrange my Home apps and folders?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Home apps</strong>, then press and drag the selected apps and folders into the order you want.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home apps</p>
+          </div>
+        </details>
 
-      <details class="faq-item">
-        <summary>What happens if I clear or reset Waymark's app data?</summary>
-        <div class="faq-answer">
-          <p>On an existing installation that has been reset, Waymark can show a <strong>Welcome Back</strong> screen with options to restore a previous backup or start fresh. Starting fresh begins normal onboarding again from the beginning.</p>
-        </div>
-      </details>
+        <details class="faq-item">
+          <summary>How do I create a folder on Home?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Home apps</strong> and choose the <strong>Folder</strong> option. Give the folder a name, choose the apps you want inside it, and save it. A Home folder counts as one of your 8 Home items.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home apps → Folder</p>
+          </div>
+        </details>
 
-      <details class="faq-item">
-        <summary>How do Waymark Now search suggestions work?</summary>
-        <div class="faq-answer">
-          <p>You can choose Search engine, On-device or Off in Waymark Now settings. Search engine suggestions use live suggestions from Google or DuckDuckGo and send partial search text to the selected provider as you type. On-device suggestions stay local to Waymark, while Off disables suggestions entirely.</p>
-        </div>
-      </details>
+        <details class="faq-item">
+          <summary>How do I edit or delete a Home folder?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Home apps</strong> and edit the folder from the Home-item list. You can change its name, change the apps inside it, or delete it. Waymark asks for confirmation before a folder is permanently removed.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home apps → select the folder</p>
+          </div>
+        </details>
 
-      <details class="faq-item">
-        <summary>How do notification cards work?</summary>
-        <div class="faq-answer">
-          <p>If you enable Android Notification access for Waymark, the launcher can show notification cards. Tapping a notification opens its destination, and dismissing a card removes it through Android's notification system. You can turn Notification access off again from Android settings at any time.</p>
-        </div>
-      </details>
+        <details class="faq-item">
+          <summary>How do I show or hide Home app icons and names?</summary>
+          <div class="faq-answer">
+            <p>Use the two switches under <strong>Layout</strong>. <strong>Home app icons</strong> controls the icons, while <strong>Home app names</strong> controls the labels.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Layout</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I change the size, shape or style of Home icons?</summary>
+          <div class="faq-answer">
+            <p>Those controls belong to the current theme rather than the Home-layout settings. Open Theme Studio and edit the icon settings there, including icon packs where available.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → Edit Current Theme</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I use a 24-hour clock?</summary>
+          <div class="faq-answer">
+            <p>Enable <strong>24-hour clock</strong> under Home behavior.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → 24-hour clock</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I hide the Android status bar on Home?</summary>
+          <div class="faq-answer">
+            <p>Enable <strong>Hide status bar</strong>. This affects Waymark Home and is also remembered with theme-related Home appearance.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Hide status bar</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="faq-section" id="settings">
+      <div class="faq-section-heading">
+        <div class="eyebrow">App controls</div>
+        <h2>Settings</h2>
+        <p>Change Waymark's interface, weather preferences, Android integration and launcher-wide options.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is the difference between Home settings and Settings?</summary>
+          <div class="faq-answer">
+            <p><strong>Home settings</strong> contains controls tied to Waymark Home, Waymark Now and drawer/navigation behavior. <strong>Settings</strong> contains launcher-wide options such as app appearance, haptics, weather, Android launcher controls, backup and reset.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I change Waymark between light and dark mode?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>App appearance</strong> and choose <strong>System, Light, Dark</strong> or <strong>Theme</strong>. Theme allows the active Waymark theme to influence the interface appearance.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Waymark app → App appearance</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I turn Waymark's vibration or haptic feedback off?</summary>
+          <div class="faq-answer">
+            <p>Turn off <strong>Haptic feedback</strong>. This controls tactile feedback used for Waymark gestures, navigation and controls.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Waymark app → Haptic feedback</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where are Waymark's weather settings?</summary>
+          <div class="faq-answer">
+            <p>Waymark uses one shared set of weather preferences throughout the launcher. From Weather settings you can choose the refresh interval, units and preferred weather app.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Waymark app → Weather settings</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I change between Celsius and Fahrenheit?</summary>
+          <div class="faq-answer">
+            <p>Choose <strong>Metric</strong> for °C and km/h or <strong>Imperial</strong> for °F and mph.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Waymark app → Weather settings → Units</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How often can Waymark update the weather?</summary>
+          <div class="faq-answer">
+            <p>The available update intervals are <strong>15 min, 30 min</strong> and <strong>1 hour</strong>.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Waymark app → Weather settings → Update interval</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I choose which weather app opens from Waymark?</summary>
+          <div class="faq-answer">
+            <p>Choose <strong>Weather app</strong> and select the installed app you want Waymark to open for more detailed weather information.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Waymark app → Weather settings → Weather app</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where can I manage Waymark's Android permissions?</summary>
+          <div class="faq-answer">
+            <p>Choose <strong>App info</strong>. Waymark opens Android's own app-information screen, where you can review permissions, notifications, storage and battery settings.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Launcher &amp; system → App info</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I restart Waymark without restarting my phone?</summary>
+          <div class="faq-answer">
+            <p>Use <strong>Restart Waymark Launcher</strong>. Waymark closes and immediately restarts itself.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Launcher &amp; system → Restart Waymark Launcher</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="faq-section" id="themes">
+      <div class="faq-section-heading">
+        <div class="eyebrow">Personalize Waymark</div>
+        <h2>Themes</h2>
+        <p>Use built-in themes, create your own, or edit the current look without losing Waymark's original presets.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is the difference between Waymark Themes and My Themes?</summary>
+          <div class="faq-answer">
+            <p><strong>Waymark Themes</strong> are the ready-made themes included with the launcher. <strong>My Themes</strong> contains themes you create yourself and customized versions you save. The original built-in themes remain available.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I apply one of the built-in Waymark themes?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Waymark Themes</strong>, swipe through the ready-made themes and tap <strong>Apply Theme</strong> on the one you want.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → Waymark Themes</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I customize the theme I am currently using?</summary>
+          <div class="faq-answer">
+            <p>Choose <strong>Edit Current Theme</strong>. Theme Studio lets you edit the current theme's wallpaper, colors, clock, fonts and text, icons and other appearance settings.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → Edit Current Theme</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I create a completely new theme?</summary>
+          <div class="faq-answer">
+            <p>Yes. Choose <strong>Create New Theme</strong>, give it a name, customize it in Theme Studio and save it. You can find it later under My Themes.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → Create New Theme</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where are themes I created or edited saved?</summary>
+          <div class="faq-answer">
+            <p>Your saved themes appear under <strong>My Themes</strong>. From there you can apply, edit or delete them.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → My Themes</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>If I edit a built-in theme, does it permanently change the original?</summary>
+          <div class="faq-answer">
+            <p>No. Waymark keeps the built-in theme pristine. Your customized version is saved separately under My Themes, so the original ready-made theme remains available.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I delete one of My Themes?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>My Themes</strong> and use the delete control on the theme card. Waymark asks you to confirm before permanently removing the saved theme.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → My Themes</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I use my own photo as a wallpaper?</summary>
+          <div class="faq-answer">
+            <p>Open Theme Studio from either <strong>Edit Current Theme</strong> or <strong>Create New Theme</strong>, then choose the wallpaper controls and select an image from your device.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → Edit Current Theme or Create New Theme</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I add my own font?</summary>
+          <div class="faq-answer">
+            <p>Yes. Open Theme Studio and go to <strong>Fonts &amp; text</strong>. Waymark can import a font from your device and save it with your customized setup.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → Edit Current Theme → Fonts &amp; text</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I use an installed Android icon pack?</summary>
+          <div class="faq-answer">
+            <p>Yes, when a compatible icon pack is installed. Open the icon controls in Theme Studio and choose <strong>Icon packs</strong>. Waymark's own icon treatment and external Android icon packs are separate choices.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → Edit Current Theme → Icons → Icon packs</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I change the clock style?</summary>
+          <div class="faq-answer">
+            <p>Open Theme Studio and edit the <strong>Clock</strong> section. The selected clock style is saved as part of the theme.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Themes → Edit Current Theme → Clock</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Will applying a theme change my Lock Screen wallpaper?</summary>
+          <div class="faq-answer">
+            <p>Only if you have chosen that behavior. Built-in Waymark Themes use the launcher-wide <strong>Built-in theme Lock Screen</strong> setting. Themes saved under My Themes remember their own <strong>Also use on Lock Screen</strong> choice.</p>
+            <p class="faq-path"><strong>Built-in themes:</strong> Waymark button → Settings → Waymark app → Built-in theme Lock Screen</p>
+            <p class="faq-path"><strong>My Themes:</strong> Waymark button → Themes → Edit Current Theme → Also use on Lock Screen</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="faq-section" id="waymark-hub">
+      <div class="faq-section-heading">
+        <div class="eyebrow">Home information</div>
+        <h2>Waymark Hub</h2>
+        <p>Control the date, weather, battery, calendar, notifications and media information shown around Waymark Home.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is Waymark Hub?</summary>
+          <div class="faq-answer">
+            <p>Waymark Hub is the control center for the information Waymark can show with your Home screen, including the date, weather, battery, next calendar event, notification icons and Now Playing information.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I show or hide the date, weather or battery?</summary>
+          <div class="faq-answer">
+            <p>Use the switches under <strong>Hub Items</strong>. Each item can be enabled or disabled independently.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Hub Items</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Why isn't weather showing on Home?</summary>
+          <div class="faq-answer">
+            <p>Make sure <strong>Weather</strong> is enabled in Waymark Hub and that Android has granted Waymark approximate location permission. If permission was denied earlier, open Waymark's App info and allow the required location permission.</p>
+            <p class="faq-path"><strong>Feature:</strong> Waymark button → Waymark Hub → Hub Items → Weather</p>
+            <p class="faq-path"><strong>Permission:</strong> Waymark button → Settings → Launcher &amp; system → App info → Permissions</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I change weather units or the refresh interval from Waymark Hub?</summary>
+          <div class="faq-answer">
+            <p>Yes. Waymark Hub includes a Weather settings link, and those preferences are shared throughout Waymark.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Weather settings</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I show my next calendar event?</summary>
+          <div class="faq-answer">
+            <p>Enable <strong>Next event</strong>. If Waymark does not already have calendar permission, Android will ask for it. The feature becomes enabled when permission is granted.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Calendar → Next event</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I choose which calendar app opens?</summary>
+          <div class="faq-answer">
+            <p>Yes. Choose <strong>Calendar app</strong> and select the app you want Waymark to use when opening calendar information.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Calendar → Calendar app</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I enable notification icons on Home?</summary>
+          <div class="faq-answer">
+            <p>Enable <strong>Notification icons</strong>. The first time you turn this on, Android may ask you to grant Waymark Notification access.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Notifications &amp; media → Notification icons</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What are Persistent notifications?</summary>
+          <div class="faq-answer">
+            <p>When Notification icons are enabled, <strong>Persistent notifications</strong> allows Waymark to include ongoing notifications that normally remain active rather than only ordinary dismissible notifications.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Notifications &amp; media → Persistent notifications</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can media notifications be included with my other notification icons?</summary>
+          <div class="faq-answer">
+            <p>Yes. Turn on <strong>Include media notifications</strong> while Notification icons are enabled.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Notifications &amp; media → Include media notifications</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I enable Now Playing and media controls?</summary>
+          <div class="faq-answer">
+            <p>Enable <strong>Now playing</strong>. Waymark needs Android Notification access to read active media-session information.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Notifications &amp; media → Now playing</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do Waymark notification previews work?</summary>
+          <div class="faq-answer">
+            <p>Tap a notification icon on Home to view its preview. Tap the preview to open the notification. Swipe <strong>up</strong> to close the preview without removing the notification, or swipe <strong>left or right</strong> to remove the notification.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="faq-section" id="waymark-now">
+      <div class="faq-section-heading">
+        <div class="eyebrow">Left of Home</div>
+        <h2>Waymark Now</h2>
+        <p>Configure Waymark's side page for web search, local weather and a personalized news feed.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is Waymark Now?</summary>
+          <div class="faq-answer">
+            <p>Waymark Now is the page directly to the <strong>left of Home</strong>. Swipe right from Home to reach it. It can provide web search, a local forecast and news without crowding the main Home screen.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I turn Waymark Now on or off?</summary>
+          <div class="faq-answer">
+            <p>Use the <strong>Waymark Now</strong> switch. Turning the page off also stops its background updates.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Waymark Now → Waymark Now</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Which search engines does Waymark Now support?</summary>
+          <div class="faq-answer">
+            <p>Waymark Now currently supports <strong>Google</strong> and <strong>DuckDuckGo</strong>.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Waymark Now → Search engine</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What do the Search suggestions options mean?</summary>
+          <div class="faq-answer">
+            <p><strong>Search engine</strong> uses live suggestions from Google or DuckDuckGo and sends partial search text to the selected provider as you type. <strong>On-device</strong> uses Waymark and your local search history without sending partial text while you type. <strong>Off</strong> disables recent-search and autocomplete suggestions while typing.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Waymark Now → Search suggestions</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can search results and news articles open inside Waymark?</summary>
+          <div class="faq-answer">
+            <p>Yes. Set <strong>Open web links</strong> to <strong>Waymark</strong> to use Waymark's built-in viewer, or choose <strong>Browser</strong> to use your default browser.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Waymark Now → Open web links</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I show or hide the local forecast?</summary>
+          <div class="faq-answer">
+            <p>Use the <strong>Local forecast</strong> switch. The forecast provides current conditions and a 5-day forecast and uses Waymark's shared weather preferences.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Waymark Now → Local forecast</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I change the news region or edition?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>News edition</strong>. <strong>Automatic</strong> follows the device region, or you can choose another available edition.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Waymark Now → News edition</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I choose what type of news appears?</summary>
+          <div class="faq-answer">
+            <p>Yes. Use <strong>News topics</strong> to choose one topic or mix several topics into the same feed. Waymark always keeps at least one topic selected.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Waymark Now → News topics</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I stop Waymark from fetching news?</summary>
+          <div class="faq-answer">
+            <p>Turn off <strong>News feed</strong>. The app specifically stops fetching news when this switch is off.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Waymark Now → News feed</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I manually refresh the forecast or news?</summary>
+          <div class="faq-answer">
+            <p>Yes. The Weather and News cards in Waymark Now each provide a <strong>Refresh</strong> control in the card header.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where else can I find the Waymark Now settings?</summary>
+          <div class="faq-answer">
+            <p>Waymark also provides a dedicated <strong>Waymark Now settings</strong> screen from within Waymark Now, containing the same search, forecast and news controls.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="faq-section" id="drawer-navigation">
+      <div class="faq-section-heading">
+        <div class="eyebrow">Find your apps</div>
+        <h2>App Drawer &amp; Navigation</h2>
+        <p>Change the drawer layout, search behavior, hidden apps and Waymark's fast A–Z navigation.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How do I change between a list and grid app drawer?</summary>
+          <div class="faq-answer">
+            <p>Choose <strong>List</strong> or <strong>Grid</strong> under App drawer layout.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Drawer &amp; navigation → App drawer → Layout</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I change the size of app-drawer icons?</summary>
+          <div class="faq-answer">
+            <p>Choose <strong>Small, Medium</strong> or <strong>Large</strong>.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Drawer &amp; navigation → App drawer → Icon size</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I hide the app names in the drawer?</summary>
+          <div class="faq-answer">
+            <p>Yes. Turn off <strong>Show app names</strong>.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Drawer &amp; navigation → App drawer → Show app names</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I hide an app from Waymark's app drawer?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Hidden apps</strong> and choose the apps you do not want shown in the drawer. Hiding an app in Waymark does not uninstall or disable it.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Drawer &amp; navigation → App drawer → Hidden apps</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I make the keyboard open automatically with the app drawer?</summary>
+          <div class="faq-answer">
+            <p>Enable <strong>Automatic search</strong>. Waymark will focus the search box and open the keyboard when the drawer opens.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Drawer &amp; navigation → Navigation → Automatic search</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I show recently installed apps?</summary>
+          <div class="faq-answer">
+            <p>Enable <strong>Recently installed</strong>. Waymark shows the <strong>5 most recently installed apps</strong> at the top of the drawer.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Drawer &amp; navigation → Navigation → Recently installed</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What is Home edge quick access?</summary>
+          <div class="faq-answer">
+            <p>When enabled, you can swipe along the right edge of Home to browse and launch apps by letter without first opening the full drawer.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Drawer &amp; navigation → Navigation → Home edge quick access</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What is the Drawer A–Z rail?</summary>
+          <div class="faq-answer">
+            <p>In <strong>List</strong> layout, the Drawer A–Z rail lets you drag through the alphabet to jump quickly through the app list. The rail is not available while the drawer uses Grid layout.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → Drawer &amp; navigation → Navigation → Drawer A–Z rail</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I change how long the Home A–Z rail stays visible?</summary>
+          <div class="faq-answer">
+            <p>Yes. Use <strong>A–Z rail timeout</strong> to choose how long the Home edge rail remains visible after you release it.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Home settings → Behavior → A–Z rail timeout</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="faq-section" id="backup-troubleshooting">
+      <div class="faq-section-heading">
+        <div class="eyebrow">Protect your setup</div>
+        <h2>Backup &amp; Troubleshooting</h2>
+        <p>Save your Waymark setup, restore it later, reset the launcher safely, and solve the most common permission problems.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What does a Waymark backup save?</summary>
+          <div class="faq-answer">
+            <p>A Waymark backup saves your <strong>Home layout, folders, themes, settings, imported wallpapers and imported fonts</strong>.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Backup &amp; reset → Backup Waymark</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I restore a Waymark backup?</summary>
+          <div class="faq-answer">
+            <p>Choose <strong>Restore Waymark</strong> and select a previously saved Waymark backup file. Restoring replaces the current Waymark setup with the contents of that backup.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Backup &amp; reset → Restore Waymark</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What does Reset Waymark Launcher erase?</summary>
+          <div class="faq-answer">
+            <p>Reset removes Waymark's layout and settings and returns the app to its first-run flow. This includes the Home layout, folders, custom themes and locally imported Waymark assets, so create a backup first if you may want them again.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Backup &amp; reset → Reset Waymark Launcher</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What happens if I clear Waymark's app data through Android?</summary>
+          <div class="faq-answer">
+            <p>On an existing installation that has been reset, Waymark shows a <strong>Welcome Back</strong> screen where you can restore a backup or start fresh. Starting fresh begins the normal first-run setup again.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Weather permission was denied. How do I enable it later?</summary>
+          <div class="faq-answer">
+            <p>Try enabling Weather again from Waymark Hub. If Android does not offer the permission prompt again, open Waymark's App info and grant the required location permission manually.</p>
+            <p class="faq-path"><strong>Feature:</strong> Waymark button → Waymark Hub → Hub Items → Weather</p>
+            <p class="faq-path"><strong>Permission:</strong> Waymark button → Settings → Launcher &amp; system → App info → Permissions</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Calendar permission was denied. How do I enable it later?</summary>
+          <div class="faq-answer">
+            <p>Try enabling <strong>Next event</strong> again. If needed, open Android App info and allow Calendar access manually.</p>
+            <p class="faq-path"><strong>Feature:</strong> Waymark button → Waymark Hub → Calendar → Next event</p>
+            <p class="faq-path"><strong>Permission:</strong> Waymark button → Settings → Launcher &amp; system → App info → Permissions</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Notifications or media controls aren't appearing. What should I check?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Notification access</strong> and confirm Android allows Waymark to read notifications. Then make sure <strong>Notification icons</strong> and/or <strong>Now playing</strong> are enabled in Waymark Hub.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Hub → Notifications &amp; media → Notification access</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Something in Waymark isn't updating correctly. What should I try first?</summary>
+          <div class="faq-answer">
+            <p>First use <strong>Restart Waymark Launcher</strong>. If the feature depends on Android permissions, also open <strong>App info</strong> and make sure the required permission or special access has not been removed.</p>
+            <p class="faq-path"><strong>Restart:</strong> Waymark button → Settings → Launcher &amp; system → Restart Waymark Launcher</p>
+            <p class="faq-path"><strong>Permissions:</strong> Waymark button → Settings → Launcher &amp; system → App info</p>
+          </div>
+        </details>
+      </div>
     </section>
 
     <section class="card faq-help">
