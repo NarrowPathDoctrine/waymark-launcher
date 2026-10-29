@@ -24,7 +24,7 @@
   <main>
     <div class="eyebrow">Waymark Launcher</div>
     <h1 class="page-title">Frequently Asked Questions</h1>
-    <p class="lead">Direct answers and step-by-step paths for setting up, customizing and troubleshooting Waymark.</p>
+    <p class="lead">Direct answers and step-by-step paths for setting up, customizing and troubleshooting Waymark, including Waymark Now and Digital Wellbeing.</p>
 
     <nav class="faq-jump-nav" aria-label="FAQ sections">
       <a href="#getting-started">Getting Started &amp; Home</a>
@@ -32,6 +32,7 @@
       <a href="#themes">Themes</a>
       <a href="#waymark-hub">Waymark Hub</a>
       <a href="#waymark-now">Waymark Now</a>
+      <a href="#digital-wellbeing">Digital Wellbeing</a>
       <a href="#drawer-navigation">Drawer &amp; Navigation</a>
       <a href="#backup-troubleshooting">Backup &amp; Troubleshooting</a>
     </nav>
@@ -46,7 +47,11 @@
         <details class="faq-item">
           <summary>Where do I find Waymark's main features?</summary>
           <div class="faq-answer">
-            <p>Tap the <strong>Waymark button</strong> on Home to open the main menu. The sections are <strong>Home apps</strong>, <strong>Home settings</strong>, <strong>Waymark Hub</strong>, <strong>Waymark Now</strong>, <strong>Themes</strong>, <strong>Settings</strong>, and <strong>About Waymark Launcher</strong>.</p>
+            <p>Tap the <strong>Waymark button</strong> on Home to open the main menu. The destinations are grouped for easier navigation:</p>
+            <p><strong>Home &amp; navigation:</strong> Home apps, Home settings, and Waymark Hub.<br>
+            <strong>Features &amp; appearance:</strong> Waymark Now and Themes.<br>
+            <strong>More:</strong> Settings, Digital Wellbeing, and About Waymark Launcher.</p>
+            <p>Digital Wellbeing is optional; the rest of Waymark works without granting Android Usage Access.</p>
           </div>
         </details>
 
@@ -213,6 +218,7 @@
           <summary>How often can Waymark update the weather?</summary>
           <div class="faq-answer">
             <p>The available weather update intervals are <strong>15 minutes, 30 minutes</strong> and <strong>1 hour</strong>. You can also refresh the Waymark Now forecast manually. If available, Waymark can display its last saved forecast while requesting updated conditions.</p>
+            <p>To avoid excessive requests, manual refreshes share a <strong>15-minute cooldown for actual weather-provider requests</strong>, regardless of your automatic update interval. A refresh during that period can reuse saved information; its updated time shows when Waymark checked, not necessarily when new weather data was downloaded. Weather remains visible with its last available information when a newer request is unsuccessful.</p>
             <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Waymark app → Weather settings → Update interval</p>
           </div>
         </details>
@@ -456,6 +462,7 @@
           <summary>How do Waymark notification previews work?</summary>
           <div class="faq-answer">
             <p>Tap a notification icon on Home to view its preview. Tap the preview to open the notification. Swipe <strong>up</strong> to close the preview without removing the notification, or swipe <strong>left or right</strong> to remove the notification.</p>
+            <p>If you have set a Digital Wellbeing limit for the associated app, Waymark checks that limit before opening a notification from its own preview. A canceled warning or blocked launch leaves the notification in place unless you have explicitly enabled <strong>Dismiss blocked notifications</strong>.</p>
           </div>
         </details>
       </div>
@@ -471,7 +478,7 @@
         <details class="faq-item">
           <summary>What is Waymark Now?</summary>
           <div class="faq-answer">
-            <p>Waymark Now is a customizable side page directly to the <strong>left of Home</strong>. Swipe right from Home to open it. It offers four optional sections: <strong>Web search</strong>, <strong>Local forecast</strong>, <strong>Quick reminders</strong>, and <strong>Quick actions</strong>. You can keep Home uncluttered while putting useful tools a swipe away.</p>
+            <p>Waymark Now is a customizable side page directly to the <strong>left of Home</strong>. Swipe right from Home to open it. It offers five optional sections: <strong>Web search</strong>, <strong>Local forecast</strong>, <strong>Quick reminders</strong>, <strong>Quick actions</strong>, and <strong>Digital Wellbeing</strong>. You can show only the sections you want and arrange them in your preferred order.</p>
           </div>
         </details>
 
@@ -487,7 +494,7 @@
         <details class="faq-item">
           <summary>How do I show or hide individual Waymark Now sections?</summary>
           <div class="faq-answer">
-            <p>In the main <strong>Waymark Now</strong> settings, switch <strong>Web search</strong>, <strong>Weather</strong>, <strong>Quick reminders</strong>, or <strong>Quick actions</strong> on or off independently. Each section has its own visibility control.</p>
+            <p>In the main <strong>Waymark Now</strong> settings, switch <strong>Web search</strong>, <strong>Weather</strong>, <strong>Quick reminders</strong>, <strong>Quick actions</strong>, or <strong>Digital Wellbeing</strong> on or off independently. Each section has its own visibility control.</p>
             <p>The gear on a section's card opens settings or management for <em>that section only</em>. It does not enable or disable the section; use the central Waymark Now switches for visibility.</p>
             <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Now</p>
           </div>
@@ -567,17 +574,141 @@
         <details class="faq-item">
           <summary>What do the settings gears on Waymark Now do?</summary>
           <div class="faq-answer">
-            <p>Each gear is specific to the section where it appears: the search gear opens Web search settings, the Local forecast gear opens Weather settings, the reminders gear opens its reminder settings, and the Quick actions gear opens the action manager.</p>
+            <p>Each gear is specific to the section where it appears: the search gear opens Web search settings, the Local forecast gear opens Weather settings, the Quick reminders gear opens its reminder settings, and the Quick actions gear opens the action manager. The Digital Wellbeing settings control opens the Digital Wellbeing dashboard.</p>
             <p>Use the <strong>main Waymark Now settings</strong> to enable or disable the side page and its individual sections. Section-specific settings deliberately do not repeat their show/hide switches.</p>
             <p class="faq-path"><strong>Main settings:</strong> Waymark button → Waymark Now</p>
+          </div>
+        </details>
+
+
+        <details class="faq-item">
+          <summary>Can I rearrange the sections on Waymark Now?</summary>
+          <div class="faq-answer">
+            <p>Yes. Open <strong>Waymark Now</strong> settings and find <strong>Arrange sections</strong>. Touch and hold a drag handle, then move the section to the position you want. Your order is saved for the Waymark Now page.</p>
+            <p>Only currently visible sections appear in the arrangement list. Hiding a section does not remove its saved preferences.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Now → Arrange sections</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I restore the default Waymark Now section order?</summary>
+          <div class="faq-answer">
+            <p>Under <strong>Arrange sections</strong>, select <strong>Restore default order</strong> and confirm. The original order is <strong>Web search, Weather, Quick reminders, Quick actions, Digital Wellbeing</strong>.</p>
+            <p>This resets <strong>only the arrangement</strong>. It does not turn hidden sections back on or change your Quick reminders, Quick actions, app limits, or other section settings.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Now → Arrange sections → Restore default order</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I show Digital Wellbeing on Waymark Now?</summary>
+          <div class="faq-answer">
+            <p>Turn on the <strong>Digital Wellbeing</strong> section in the main Waymark Now settings. Its card provides a compact view of usage activity and access to the full dashboard.</p>
+            <p>Showing or hiding this Waymark Now card is separate from granting Android Usage Access or configuring individual app limits.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Now → Sections → Digital Wellbeing</p>
           </div>
         </details>
 
         <details class="faq-item">
           <summary>Why has Waymark Now disappeared after I turned off some sections?</summary>
           <div class="faq-answer">
-            <p>If you disable all four sections, the Waymark Now side page is automatically disabled as well. This prevents an empty side page. Enable at least one section and turn Waymark Now back on to use it again.</p>
+            <p>If you disable all five sections, the Waymark Now side page is automatically disabled as well. This prevents an empty side page. Enable at least one section and turn Waymark Now back on to use it again.</p>
             <p class="faq-path"><strong>Path:</strong> Waymark button → Waymark Now</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+
+    <section class="faq-section" id="digital-wellbeing">
+      <div class="faq-section-heading">
+        <div class="eyebrow">Screen-time awareness</div>
+        <h2>Digital Wellbeing</h2>
+        <p>Understand your app usage and set personal boundaries without system-wide app blocking or continuous background monitoring.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is Digital Wellbeing in Waymark Launcher?</summary>
+          <div class="faq-answer">
+            <p><strong>Digital Wellbeing is a tool for awareness and personal responsibility, not a system-wide enforcement service.</strong> It helps you review your app usage and set optional boundaries that Waymark applies when you launch apps through the launcher.</p>
+            <p>Waymark is not designed to police your device, repeatedly interrupt you, or forcibly close applications. You remain in control of the limits you choose.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Digital Wellbeing</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I enable Digital Wellbeing, and is Android Usage Access required?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Digital Wellbeing</strong> from Waymark's main menu. If Android Usage Access has not been granted, Waymark explains what it needs and offers <strong>Continue to Usage Access</strong> to open Android's settings. Granting this access lets Waymark read reported time spent in apps and activity events used for app-limit checks.</p>
+            <p>Usage Access is <strong>optional</strong>. Without it, Digital Wellbeing's usage tracking and limits remain inactive, while the rest of Waymark continues to work normally. You can revoke the access later through Android Settings.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Digital Wellbeing → Continue to Usage Access</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What usage information can I see?</summary>
+          <div class="faq-answer">
+            <p>The dashboard includes <strong>Today's activity</strong>, a circular breakdown of app usage, the total time used, app-opening activity, a <strong>Past seven days</strong> chart, and a list of the <strong>Most-used apps</strong>. The seven-day chart shows daily totals; the app list helps you identify where your time is going.</p>
+            <p>Usage information comes from Android and is approximate. Today's activity is calculated for the current local day. For a session that continues across midnight, the time since midnight counts toward today even if the app was not freshly opened.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Digital Wellbeing</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I set a daily time limit for an app?</summary>
+          <div class="faq-answer">
+            <p>Open <strong>Digital Wellbeing</strong>, choose <strong>Manage app limits</strong> under App limits, and select or search for the application. You can also open an eligible app's limit settings directly from its entry in Most-used apps.</p>
+            <p>Enable <strong>Daily usage limit</strong>, then choose <strong>15 minutes, 30 minutes, 1 hour, or 2 hours</strong>. Under <strong>When the limit is reached</strong>, choose <strong>Warn</strong> or <strong>Don't launch</strong>. Turning off an app's daily limit keeps its previous duration and response available if you enable it again.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Digital Wellbeing → Manage app limits → choose an app</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What is the difference between Warn and Don't launch?</summary>
+          <div class="faq-answer">
+            <p><strong>Warn:</strong> When you attempt to open an app through Waymark after its limit is reached, Waymark shows a warning so you can cancel or choose to open it anyway.</p>
+            <p><strong>Don't launch:</strong> When the limit has been reached, Waymark prevents that launch through its own Home screen, app drawer, or notification preview.</p>
+            <p>These choices do not close an app that is already running. They apply to launches Waymark controls, not to every way Android can open an app.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I still open a restricted app through Android notifications or Recent Apps?</summary>
+          <div class="faq-answer">
+            <p><strong>Yes.</strong> A limit set in Waymark is <strong>not a system-wide block</strong>. Android's notification shade, Recent Apps, other launchers, or other apps can open the restricted application without going through Waymark's limit check. Waymark does not forcibly stop or suspend apps.</p>
+            <p>Notifications opened from <strong>Waymark's own Home notification previews</strong> are different: Waymark receives that interaction and applies the selected Warn or Don't launch behavior before opening the destination.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What happens to a notification if I cancel a warning or Waymark blocks its app?</summary>
+          <div class="faq-answer">
+            <p>By default, Waymark <strong>keeps the notification</strong> so you can deal with it later. The notification should not disappear merely because a limit prevented its app from opening.</p>
+            <p>If you prefer, turn on <strong>Dismiss blocked notifications</strong> in the Digital Wellbeing dashboard. This option is <strong>Off by default</strong> and removes only the particular notification you attempted to open when you cancel a warning or a launch is blocked. Other notifications from that app are not cleared by this setting.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Digital Wellbeing → Notification behavior → Dismiss blocked notifications</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Does Waymark send automatic app-limit reminders or show alerts while I use other apps?</summary>
+          <div class="faq-answer">
+            <p><strong>No.</strong> Waymark does not run a continuous monitoring service or send delayed automatic daily-limit notifications. We deliberately keep interventions to the moments when you try to open an app or its notification through Waymark.</p>
+            <p>Warn and Don't launch remain available at those points, without interrupting whatever else you may be doing on your device.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Where can I read the full Digital Wellbeing explanation?</summary>
+          <div class="faq-answer">
+            <p>Open the Digital Wellbeing dashboard and tap the <strong>Info</strong> button in the upper-right corner. It explains what Digital Wellbeing is and is not, how app limits and notification previews work, and how Waymark handles privacy and battery efficiency.</p>
+            <p class="faq-path"><strong>Path:</strong> Waymark button → Digital Wellbeing → Info</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is my Digital Wellbeing usage information sent anywhere?</summary>
+          <div class="faq-answer">
+            <p><strong>No.</strong> Waymark processes the Android usage information locally on your device and does not upload your usage history to Waymark servers. Usage Access is optional, and there is no persistent background monitoring service for Digital Wellbeing.</p>
+            <p>Your chosen app-limit settings and Digital Wellbeing preferences can be included in a Waymark backup; Android's permission grant itself must be managed on the device.</p>
           </div>
         </details>
       </div>
@@ -684,7 +815,8 @@
         <details class="faq-item">
           <summary>What does a Waymark backup save?</summary>
           <div class="faq-answer">
-            <p>A Waymark backup saves your <strong>Home layout, folders, themes, settings, imported wallpapers and imported fonts</strong>. It also includes your <strong>Waymark Now</strong> setup, such as which sections are enabled.</p>
+            <p>A Waymark backup saves your <strong>Home layout, folders, themes, settings, imported wallpapers and imported fonts</strong>. It also includes your <strong>Waymark Now</strong> setup, including which sections are enabled and their custom order.</p>
+            <p>Backups also retain your <strong>Digital Wellbeing preferences</strong>, including configured daily app limits, Warn or Don't launch choices, and the optional Dismiss blocked notifications setting. Android Usage Access itself is not a transferable permission and may need to be granted again after restoring.</p>
             <p>Your <strong>Quick reminders</strong> are included, with their text, completion status and appearance preferences. Your <strong>Quick actions</strong> are included too, with their selected actions, order, custom names, icons and app-shortcut references. Only phone numbers you have chosen to assign to Quick actions are included; Waymark does not back up your entire contacts list.</p>
             <p><strong>May Contain Sensitive Information</strong></p>
             <p>Your Waymark backup may contain personal information, including saved Quick reminders, phone numbers you have chosen to assign to Quick actions, recent web searches, and personal wallpaper images.</p>
@@ -696,7 +828,7 @@
         <details class="faq-item">
           <summary>How do I restore a Waymark backup?</summary>
           <div class="faq-answer">
-            <p>Choose <strong>Restore Waymark</strong> and select a previously saved Waymark backup file. Restoring replaces your current Waymark setup with the backed-up layout, themes, settings, Quick reminders and customized Quick actions, including their saved details.</p>
+            <p>Choose <strong>Restore Waymark</strong> and select a previously saved Waymark backup file. Restoring replaces your current Waymark setup with the backed-up layout, themes, settings, Quick reminders and customized Quick actions, including their saved details. Waymark Now section ordering and your saved Digital Wellbeing limit preferences are restored as well.</p>
             <p>If Waymark has been reset or its app data was cleared, the <strong>Welcome Back</strong> screen also offers <strong>Restore backup</strong> before starting setup again.</p>
             <p>Shortcuts to third-party apps depend on those apps and their shortcuts still being available. If an app was uninstalled or a shortcut can no longer be resolved, you may need to choose a new Quick action. Android permissions or special access may also need to be granted again, particularly when restoring on a different device.</p>
             <p class="faq-path"><strong>Settings path:</strong> Waymark button → Settings → Backup &amp; reset → Restore Waymark</p>
@@ -717,7 +849,7 @@
           <summary>What does Reset Waymark Launcher erase?</summary>
           <div class="faq-answer">
             <p><strong>Reset Waymark Launcher</strong> removes the current Waymark setup and returns you to the first-run experience. This includes the Home layout, folders, custom themes, imported Waymark assets and settings.</p>
-            <p>It also clears <strong>Quick reminders</strong>, including their text and completion status, and removes your customized <strong>Quick actions</strong>, such as selected app shortcuts and call or text contact assignments. Waymark Now preferences return to their defaults.</p>
+            <p>It also clears <strong>Quick reminders</strong>, including their text and completion status, and removes your customized <strong>Quick actions</strong>, such as selected app shortcuts and call or text contact assignments. Waymark Now section visibility and order return to their defaults. Saved <strong>Digital Wellbeing app limits and preferences</strong> are reset too.</p>
             <p><strong>Create a backup before resetting</strong> if you might want to restore your setup later. Resetting Waymark does not uninstall your Android apps or delete the contacts stored in your phone.</p>
             <p class="faq-path"><strong>Path:</strong> Waymark button → Settings → Backup &amp; reset → Reset Waymark Launcher</p>
           </div>
